@@ -1,0 +1,23 @@
+A game of cat and mouse
+
+
+-at the beginning of the game, the cat sits in the middle of the lower edge and has 5 lives.
+-mouses start to show up from the upper edge in a random direction start to move to the lower edge.
+-cat has to shoot them down before they touch the cat or the lower edge .
+-the cat will be able to move only side to side.
+-for every mouse that touches the lower edge, the cat loses one life.
+-variables:
+*Cat
+*mouse
+*bullet/ball
+*score
+*lives
+*level
+---first step
+-create a cat at the position of [(x=14),(y=-93)].
+   *left arrow is pressed, the cat moves left.
+   *right arrow is pressed, the cat moves right. 
+   *space bar pressed, the cat shoots a bullet/ball.
+   *for every mouse the cat shoots, it gains one point.
+
+

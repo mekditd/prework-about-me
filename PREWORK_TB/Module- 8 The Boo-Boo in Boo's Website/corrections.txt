@@ -1,0 +1,12 @@
+BooTheDog.html
+	<!-- missing h1 -->
+	<!-- missing p tags -->
+	<!--"href" link was not in proper place -->
+	<!-- image was not in proper img link format -->
+	<!-- missing "li"s -->
+	<!-- color names and placeholders for the button don't match -->
+	<!-- wrong js file name -->
+
+logic.js
+	// missing quotation marks in booFacts Array
+	// mssing quotation marks for click in "#boxGrow" & "#boxShrink" functions

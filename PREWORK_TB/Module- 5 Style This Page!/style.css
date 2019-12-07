@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.styledFont {
+    text-align: left; color: green;
+}
+
+#styledImage {
+    border: 5px solid orange;
+}

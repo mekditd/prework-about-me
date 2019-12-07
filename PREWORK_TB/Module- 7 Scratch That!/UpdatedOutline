@@ -1,0 +1,31 @@
+Cat
+    movesLeft: whenLeftArrowKeyPressed
+    movesRight: whenRightArrowKeyPressed
+    
+     
+Mouse
+    appearRandomly: fromPosition [(x=-202 to 206), Y= 135)];
+    moveToDirectionOfCat: 2 steps
+    getDeleted: whenTouchingBallOrEdge
+
+Ball/Gun
+
+    Shoots: whenSpacebarPressed
+    KillsMouse: whenTouchesTheMouse
+    disappears: whenTochingMouseOrEdge
+
+Lives
+
+    atGameStart: SetsToThree
+    ReducesByOne: whenMouseTouchEdge
+    whenLivesEqualsZero: GameOver
+
+Level
+
+    changeInLevel: ChangesSpeedOfMouseApperance
+    atGameStart: SetsToZero
+    forEveryTwentyScore: LevelIncreaseByOne
+
+Score
+
+    ScoreRegisters: CountOfMouseKilled
